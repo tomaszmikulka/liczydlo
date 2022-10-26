@@ -7,6 +7,12 @@ public class program1 {
         krolik1.changeName("Stasiek");
         krolik1.showName();
         System.out.println(krolik1.showName());
-
+        krolik1.changeSoftness(false);
+        System.out.println(krolik1.showSoftness());
+        krolik1.changeLength(30);
+        krolik1.showLength();
+        System.out.println(krolik1.showLength());
+        System.out.println(krolik1.klonowanie(60));
+        System.out.println(krolik1.showLength());
     }
 }
